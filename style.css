@@ -1,12 +1,13 @@
 #peak_container {
   position: relative;
-  width: 800px;
-  height: 600px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
 }
 
 #image_preview {
   display: block;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
