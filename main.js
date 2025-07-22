@@ -63,4 +63,9 @@
         console.log(e);
         console.log('Image input changed:', e.target.files);
     }, false);
+
+    document.getElementById('opacity_slider').addEventListener('input', function(e) {
+        var opacity = e.target.value;
+        document.getElementById('peakfinder_frame').style.opacity = opacity / 100;
+    }, false);
 })();
